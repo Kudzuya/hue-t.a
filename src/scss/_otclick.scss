@@ -1,0 +1,169 @@
+body { 
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#green {
+    color: #68B15B;
+}
+
+#red {
+    color: #FF0000;
+}
+
+.OTK {
+    padding: 100px 0px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 777px) {
+        padding: 30px 0px;
+    }
+
+    & .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0px 20px;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 83px;
+        margin-bottom: 117px;
+        color: #000000;
+
+        @media screen and (max-width: 777px) {
+            margin-bottom: 37px;
+            font-size: 52px;
+        }
+    }
+
+    &__div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 45px;
+
+        &_inp {
+            width: 20px;
+            height: 20px;
+        }
+
+        &_l {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26.1525px;
+            line-height: 41px;
+            color: #000000;
+        }
+    }
+
+    &__ch {
+        display: flex;
+        flex-direction: column;
+
+        &_block {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 37px;
+            margin-bottom: 60px;
+
+            &_pic {
+                width: 140px;
+                height: auto;
+
+                @media screen and (max-width: 777px) {
+                    width: 120px;
+                    height: auto;
+                }
+            }
+
+            &_right {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 15px;
+
+                &_t {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    min-width: 500px;                    
+                    
+
+                    @media screen and (max-width: 777px) {
+                        font-size: 26.6135px;
+                        display: flex;
+                        justify-content: space-between;
+                        min-width: 100%;                    
+                        
+                    }
+
+                    &_text {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 36.6135px;
+                        line-height: 45px;
+                        color: #000000;
+
+                        @media screen and (max-width: 777px) {
+                            font-size: 26.6135px;
+                        }
+                    }
+
+                    &_time {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 36.6135px;
+                        line-height: 45px;
+                        color: rgba(0, 0, 0, 0.62);
+
+                        @media screen and (max-width: 777px) {
+                            font-size: 26.6135px;
+                        }
+                    }
+                }
+
+                &_c {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 26.1525px;
+                    line-height: 50px;
+                    color: rgba(0, 0, 0, 0.49);
+
+                    @media screen and (max-width: 777px) {
+                        font-size: 23.6135px;
+                    }
+                }
+
+                &_b {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 36.6135px;
+                    line-height: 45px;
+                    color: #000000;
+
+                    @media screen and (max-width: 777px) {
+                        font-size: 26.6135px;
+                    }
+                }
+            }
+        }
+    }
+
+}
